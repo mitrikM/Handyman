@@ -1,0 +1,42 @@
+# fieldOfWorksRoute.rest
+
+# Get all FieldOfWorks
+GET http://localhost:9000/fieldOfWorks
+Content-Type: application/json
+Accept: application/json
+
+###
+
+# Create new FieldOfWork
+POST http://localhost:9000/fieldOfWorks
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Automechanik"
+}
+
+###
+
+# Get FieldOfWork by ID
+GET http://localhost:9000/fieldOfWorks/64148611554a9fe8e42fcef7
+Content-Type: application/json
+Accept: application/json
+
+###
+
+# Update FieldOfWork by ID
+PATCH http://localhost:9000/fieldOfWorks/64148611554a9fe8e42fcef7
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Web Development"
+}
+
+###
+
+# Delete FieldOfWork by ID
+DELETE http://localhost:9000/fieldOfWorks/64148611554a9fe8e42fcef7
+Content-Type: application/json
+Accept: application/json

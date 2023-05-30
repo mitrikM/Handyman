@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+.white-color{
+    background-color: #F6F1F1;
+}
+.primary-color{
+    background-color: #146C94;
+}
+.shadowed-color{
+    background-color: rgba(20, 108, 148, 0.9);
+}
+.white-text{
+    color: #F6F1F1;
+}
+
+.large-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    height: 3.5rem;
+    border-radius: 8px;
+}
+.primary-button{
+    color: #FFFFFF;
+    background-color: #146C94;
+}
+.secondary-button{
+    color: #146C94;
+    border-color: #146C94;
+    border-width: 1px;
+}
+.third-button{
+    color: #FFFFFF;
+    background-color: #333333;
+}
+.medium-button{
+
+}
+.small-button{
+
+}
+
+.secondary-button:hover{
+    background-color: #146C94;
+    color: #F6F1F1;
+}
+
+.hero-div{
+    height: 700px;
+}
+
+.err {
+    color: red;                  /* Make the text color red */
+    font-size: 12px;              /* Make the font a bit smaller */
+    padding-top: 2px;             /* Add some space above the text */
+    display: inline-block;        /* Allows to use margin and padding */
+}
+
+
+.hero-img{
+    height: 700px;
+    width: 800px;
+    object-fit: fill;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}

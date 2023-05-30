@@ -1,0 +1,65 @@
+### Create User
+POST localhost:9000/users/register
+Content-Type: application/json
+
+{
+  "firstName": "clown",
+  "lastName": "clown",
+  "email": "clown@example.com",
+  "userName": "clown",
+  "password": "password123",
+  "birthDate": "1990-01-01",
+  "mobileNumber": "+421950892662",
+  "city": "New York",
+  "accountType": "64148c8267dcafbdad43b3d0"
+}
+
+###
+### Create User
+POST localhost:9000/users/register
+Content-Type: application/json
+
+{
+  "firstName": "Marek",
+  "lastName": "Mitrik",
+  "email": "marek@example.com",
+  "userName": "marek",
+  "password": "password123",
+  "birthDate": "1990-01-01",
+  "mobileNumber": "+421950892662",
+  "city": "New York",
+  "accountType": "64148c8267dcafbdad43b3d0"
+}
+### Get All Users
+GET localhost:9000/users
+Content-Type: application/json
+###
+
+### Get User by ID
+GET localhost:9000/users/6469129bc888675f24b3f955
+Content-Type: application/json
+###
+
+### Update User (PATCH)
+PATCH localhost:9000/users/641495cef64cf37d96242893
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "userName": "johndoe",
+  "password": "password123",
+  "birthDate": "1990-01-01",
+  "mobileNumber": "+1234567890",
+  "city": "New York",
+  "accountType": "64148c8267dcafbdad43b3d0"
+}
+
+###
+
+### Delete User
+DELETE localhost:9000/users/6469129bc888675f24b3f955
+Content-Type: application/json
+###
+

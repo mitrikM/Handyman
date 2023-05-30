@@ -1,0 +1,21 @@
+POST http://localhost:9000/contract
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Test ContractInterface",
+  "description": "This is a test contract",
+  "doneIn": "1 week",
+  "salary": "1000",
+  "location": "New York",
+  "status": "Assigned",
+  "fieldOfWork": "646f2e76617d88dcb9a80f47"
+}
+###
+DELETE http://localhost:9000/contract/6468c5320f07158243dfe7ba
+Content-Type: application/json
+Accept: application/json
+###
+GET http://localhost:9000/contract
+Content-Type: application/json
+Accept: application/json

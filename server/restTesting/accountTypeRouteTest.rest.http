@@ -1,0 +1,39 @@
+# AccountType Route Tests
+
+### Create a new account type
+POST http://localhost:9000/accountTypes
+Content-Type: application/json
+
+{
+  "name": "Handyman"
+}
+
+###
+
+### Get all account types
+GET http://localhost:9000/accountTypes
+Content-Type: application/json
+
+###
+
+### Get an account type by ID
+GET http://localhost:9000/accountTypes/64148c8267dcafbdad43b3d0
+Content-Type: application/json
+
+###
+
+### Update an account type by ID
+PATCH http://localhost:9000/accountTypes/64148c5b67dcafbdad43b3c7
+Content-Type: application/json
+
+{
+  "name": "Premium"
+}
+
+###
+
+### Delete an account type by ID
+DELETE http://localhost:9000/accountTypes/64148c5b67dcafbdad43b3c7
+Content-Type: application/json
+
+###

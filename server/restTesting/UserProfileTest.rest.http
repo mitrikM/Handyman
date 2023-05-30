@@ -1,0 +1,9 @@
+### Get logged-in user's profile
+GET localhost:9000/userProfile
+###
+
+GET localhost:9000/userProfile/641495cef64cf37d96242894
+Content-Type: application/json
+
+###
+PATCH localhost:9000/userProfile/641495cef64cf37d96242894
